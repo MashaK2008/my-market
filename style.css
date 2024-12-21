@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(24, 174, 24);
+    position: sticky;
+    top: 0;
+}
+
+.container{
+    margin:0 auto;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(24, 174, 24);
+}
+.container img{
+    height: 100%;
+    float: left;
+}
+nav{
+    background-color: rgb(24, 174, 24);
+    height: 100%;
+    width: 70%;
+    float: right;
+    
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 200%;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 1%;
+}
+nav ul{
+    margin: 5vh 0 0 0;
+}
+a:hover{
+    color: aliceblue;
+   
+}
+li:hover{
+    transform:scale(1.2);
+    transition: all 0.5s;
+}
+.main{
+    background-color: rgb(24, 174, 24);
+    min-height: 85vh;
+    
+}
+.promo{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background: url("https://cdn.apartmenttherapy.info/image/upload/v1718217356/stock/shutterstock_127158479.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.promo h1{
+    padding: 100px 0 75px 0;
+
+}
+.promo button{
+    margin: 15px 0;
+
+}
+.about{
+    text-align: center;  
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+table{
+    width: 500px;
+    height: 300px;
+   margin:  0 auto;
+   font-size: 25px;
+}
+h1{
+    margin: 25px;
+    font-size: 50px;
+}
+.start{
+    text-align: start;
+}
